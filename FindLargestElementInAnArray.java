@@ -19,7 +19,13 @@ public class FindLargestElementInAnArray {
 		System.out.println("This is the largest element : testNum ["+i+"]=" + testNum[i] );
 		
 	}
+	
 	}
+System.out.println("***********");
+	
+	Arrays.sort(testNum);
+	
+	System.out.println("This is the largest element :" +testNum [testNum.length-1]);
 	
 	}
 
